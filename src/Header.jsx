@@ -3,11 +3,11 @@ function Header(){
 
     return(
         
-        <div className="header">
+        <div id='header' className="header">
 
             <div className="header-navigation">
-                <h2>About</h2>
-                <h2>Projects & Experience</h2>
+                <a href='#about'><h2>About</h2></a>
+                <a href='#projects'><h2>Projects & Experience</h2></a>
                 <a href='#contact'><h2>Contact</h2></a>
                 <h2>CV</h2>
             </div>

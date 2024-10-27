@@ -11,7 +11,7 @@ function Test(){
     return(
 
 
-        <div className='about-me-parent'>
+        <div id='about' className='about-me-parent'>
 
             <div className='react-icon-container'>
 
@@ -42,11 +42,13 @@ function Test(){
 
             <p>
 
-                I am currently a 2nd Year Undergradute Computer Science student,
+                I am currently a 2nd Year Undergradute Computer Science student
                 <br/>
-                passionate about developing software of all kinds, I am always willing to learn new frameworks, languages, and familiarising myself
-                within new environments in order to create differnet types of software, varying from game development to web development, to anything
+                Passionate about developing software of all kinds, I am always embracing new technologies and tools in which I then leverage to the best
+                of my abilites and constantly seek improvement in
 
+
+                <br/>
                 In my free time I enjoy playing ice hockey and am also entwined in the world of drug free bodybuilding
 
             

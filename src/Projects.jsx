@@ -10,7 +10,7 @@ function Projects(){
 
     return(
                 
-        <div className='about-me-parent'>
+        <div id='projects' className='about-me-parent'>
 
         <div className='react-icon-container'>
 
@@ -37,7 +37,7 @@ function Projects(){
 
         <h2>Trophies & Tombstones</h2>
 
-        <p>I am an Undergraduate Computer Science student</p>
+        <p>A Game created by me and another, inspired by a gamejam theme of 'Lose Health, Gain Wealth', merging branches </p>
 
         <h2>Portfolio Website</h2>
 
