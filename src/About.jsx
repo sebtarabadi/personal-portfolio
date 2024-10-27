@@ -42,10 +42,13 @@ function Test(){
 
             <p>
 
-                I am currently a 2nd Year Undergradute Computer Science studen,
+                I am currently a 2nd Year Undergradute Computer Science student,
                 <br/>
                 passionate about developing software of all kinds, I am always willing to learn new frameworks, languages, and familiarising myself
-                with new environments in order to create differnet types of software, varying from game development to web development, to anything
+                within new environments in order to create differnet types of software, varying from game development to web development, to anything
+
+                In my free time I enjoy playing ice hockey and am also entwined in the world of drug free bodybuilding
+
             
             </p>
 
@@ -82,8 +85,6 @@ function Test(){
             <p>Node.js (Familiarity comes from dependency installations for React)</p>
 
             </div>
-
-            <p>end of about me</p>
 
         </div>
 

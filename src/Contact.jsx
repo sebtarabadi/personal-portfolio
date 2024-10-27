@@ -4,7 +4,7 @@ function Contact(){
 
     return(
                 
-        <div className='about-me-parent'>
+        <div id='contact' className='about-me-parent'>
 
         <h1>Contact</h1>
 
@@ -19,8 +19,6 @@ function Contact(){
         <p>Email</p>
 
         </div>
-
-        <p>end of projects</p>
 
         </div>
 

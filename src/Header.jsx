@@ -8,7 +8,7 @@ function Header(){
             <div className="header-navigation">
                 <h2>About</h2>
                 <h2>Projects & Experience</h2>
-                <h2>Contact</h2>
+                <a href='#contact'><h2>Contact</h2></a>
                 <h2>CV</h2>
             </div>
 

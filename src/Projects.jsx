@@ -27,7 +27,7 @@ function Projects(){
 
         <h2>Below is a selection of my completed projects</h2>
 
-        <h4>Please be aware that I am unable to provide the source code for projects completed for University</h4>
+        <h4>Please be aware that I am unable to provide the source code for projects completed as part of my University submissions</h4>
 
         <div className='about-me-child'>
 
@@ -49,15 +49,15 @@ function Projects(){
 
         <h2>EER Calculator</h2>
 
-        <p>This project was a group effort, </p>
+        <p>This project was a group effort, It was my first time working in a group project to create software for a client, My role in the group was the front-end engineer for the project.
+            The project itself was a large success, achieving both a 1st class grade and a place at my univerisites annual computer science student showcase for excellent work
+        </p>
 
         <h2>Console Multi-Tool</h2>
 
         <p>Achieving a 1st, this project consists of a bundle of mini-applications, namely a</p>
 
         </div>
-
-        <p>end of projects</p>
 
         </div>
 
