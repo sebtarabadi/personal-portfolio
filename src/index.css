@@ -22,6 +22,17 @@ canvas {
     padding: 0;
 }
 
+/*git icon container styling*/
+
+.git-icon-container {
+    float: right;
+    height: 50vh;  
+    width: 40vw; 
+    background-color: transparent;
+}
+
+/**/
+
 /*Header Styling*/
 
 .header{

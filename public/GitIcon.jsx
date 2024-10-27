@@ -22,15 +22,15 @@ export default function Model(props) {
 
   useFrame(() => {
     setSpinY((current) => {
-      const speed = 0.1  
-      if (Math.abs(targetRotation - current) < 0.1) return targetRotation 
+      const speed = 0.4  
+      if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
   })
 
   return (
     <group {...props} dispose={null} onClick={handleClick}>
-      <group rotation={[Math.PI / 180, 0, spinY/4]}>  {/*(-Math.PI / 2), 0, 0*, check and test for value where math/ x, where x =180 ie first value of the 3, xyz*/}
+      <group rotation={[Math.PI / 180, -12, -(spinY/4)]}>  {/*(-Math.PI / 2), 0, 0*, check and test for value where math/ x, where x =180 ie first value of the 3, xyz*/}
         <mesh geometry={nodes.Object_4.geometry} material={materials['SVGMat.006']} rotation={[Math.PI / 2, 0, 0]} scale={50} />
       </group>
     </group>
