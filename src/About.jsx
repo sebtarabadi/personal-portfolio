@@ -17,19 +17,12 @@ function Test(){
 
                 <Canvas>
                 <ambientLight intensity={1.5}/>
-                      {/* Directional light simulating sunlight, casting shadows */}
-      <directionalLight
-        position={[10, 10, 5]}
-        intensity={1}
-        castShadow
-      />
-      
-      {/* Point light for additional depth, positioned close to the object */}
-      <pointLight position={[-10, -10, 10]} intensity={1.5} />
-                <OrthographicCamera makeDefault zoom={100} position={[0, 0, 10]} />
-                <Suspense fallback={null}>
-                    <ReactIcon/>
-                    </Suspense>
+                     <directionalLight position={[10, 10, 5]}intensity={1}castShadow/>
+                      <pointLight position={[-10, -10, 10]} intensity={1.5} />
+                        <OrthographicCamera makeDefault zoom={100} position={[0, 0, 10]} />
+                        <Suspense fallback={null}>
+                            <ReactIcon/>
+                        </Suspense>
                 </Canvas>   
 
             </div>
@@ -42,7 +35,7 @@ function Test(){
 
             <p>
 
-                I am currently a 2nd Year Undergradute Computer Science student
+                I am currently a 2nd Year Undergradute Computer Science student;
                 <br/>
                 Passionate about developing software of all kinds, I am always embracing new technologies and tools in which I then leverage to the best
                 of my abilites and constantly seek improvement in
