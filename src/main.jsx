@@ -6,13 +6,14 @@ import './index.css'
 import About from'./About.jsx'
 import Header from './Header.jsx'
 import Projects from './Projects.jsx'
+import Contact from './Contact.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
-    <About />
+    <Header/>
+    <About/>
     <Projects/>
-
+    <Contact/>
 
   </StrictMode>,
 )

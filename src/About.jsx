@@ -17,6 +17,15 @@ function Test(){
 
                 <Canvas>
                 <ambientLight intensity={1.5}/>
+                      {/* Directional light simulating sunlight, casting shadows */}
+      <directionalLight
+        position={[10, 10, 5]}
+        intensity={1}
+        castShadow
+      />
+      
+      {/* Point light for additional depth, positioned close to the object */}
+      <pointLight position={[-10, -10, 10]} intensity={1.5} />
                 <OrthographicCamera makeDefault zoom={100} position={[0, 0, 10]} />
                 <Suspense fallback={null}>
                     <ReactIcon/>
@@ -31,7 +40,14 @@ function Test(){
             
             <h2>About Me</h2>
 
-            <p>I am an Undergraduate Computer Science student</p>
+            <p>
+
+                I am currently a 2nd Year Undergradute Computer Science studen,
+                <br/>
+                passionate about developing software of all kinds, I am always willing to learn new frameworks, languages, and familiarising myself
+                with new environments in order to create differnet types of software, varying from game development to web development, to anything
+            
+            </p>
 
             <h2>Familiar Technologies</h2>
 
@@ -40,7 +56,7 @@ function Test(){
             <p>Visual Studio</p>
             <p>Visual Studio Code</p>
             <p>Sublime Text</p>
-            <p>Godot</p>
+            <p>Godot Engine</p>
             <p>DB Browser for SQLite</p>
             <p>Git</p>
             <p>Canva</p>

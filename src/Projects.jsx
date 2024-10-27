@@ -25,27 +25,35 @@ function Projects(){
 
         <h1>Projects</h1>
 
+        <h2>Below is a selection of my completed projects</h2>
+
+        <h4>Please be aware that I am unable to provide the source code for projects completed for University</h4>
+
         <div className='about-me-child'>
 
         <h2>Hockey Whiteboard</h2>
 
-        <p>I am an Undergraduate Computer Science student</p>
+        <p>A Project created by me in react</p>
 
         <h2>Trophies & Tombstones</h2>
 
         <p>I am an Undergraduate Computer Science student</p>
 
+        <h2>Portfolio Website</h2>
+
+        <p>Interactive website with 3d elements</p>
+
         <h2>ST Currency Transfer</h2>
 
-        <p>I am an Undergraduate Computer Science student</p>
+        <p>Achieving a 1st</p>
 
         <h2>EER Calculator</h2>
 
-        <p>I am an Undergraduate Computer Science student</p>
+        <p>This project was a group effort, </p>
 
         <h2>Console Multi-Tool</h2>
 
-        <p>I am an Undergraduate Computer Science student</p>
+        <p>Achieving a 1st, this project consists of a bundle of mini-applications, namely a</p>
 
         </div>
 
