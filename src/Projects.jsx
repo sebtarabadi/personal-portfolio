@@ -45,7 +45,13 @@ function Projects(){
 
         <h2>ST Currency Transfer</h2>
 
-        <p>Achieving a 1st</p>
+        <p>Achieving a 1st, this project was submitted as part of my second semester software projects module, this currency transfer CRUD app mimics the capabilites of 
+            existing services such as western union, monzo, etc, and carries out all operations on a local SQLite Database.
+            Users are able to open accounts, send money to and from different accounts and currencies and more.
+            There are multiple checks in place that check for suspicious activity and algorithms set up to close accounts if the target accounts satisfy the conditions
+            of said suspicious activity, closed accounts cannot use any site functions and are only able to be reopened when a site admin logs into an admin account and 
+            specifically opens the account
+        </p>
 
         <h2>EER Calculator</h2>
 

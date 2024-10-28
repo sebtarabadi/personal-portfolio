@@ -40,11 +40,18 @@ canvas {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
+    text-decoration: none;
+
 }
 
 .header h1{
     font-size: 4em;
     margin: 30px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white
 }
 
 .header p{
@@ -59,6 +66,8 @@ canvas {
     justify-content: flex-end; 
     gap: 20px
 }
+
+
 
 /*End of Header Styling*/
 
@@ -129,4 +138,13 @@ background: linear-gradient(90deg, #6a26d8, #2cfff4);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px; 
     text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer p{
+    color: wheat;
 }

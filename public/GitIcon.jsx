@@ -22,7 +22,7 @@ export default function Model(props) {
 
   useFrame(() => {
     setSpinY((current) => {
-      const speed = 0.4  
+      const speed = 0.1  
       if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
