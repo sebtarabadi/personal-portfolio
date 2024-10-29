@@ -51,7 +51,13 @@ canvas {
 
 .header a{
     text-decoration: none;
-    color: white
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.header a:hover{
+    text-decoration: none;
+    color: #0a00946b;
 }
 
 .header p{
@@ -140,6 +146,18 @@ background: linear-gradient(90deg, #6a26d8, #2cfff4);
     text-align: center;
 }
 
+.footer-links{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: #0a00946b;
+}
+
 .footer a{
     text-decoration: none;
     color: white;
@@ -147,4 +165,10 @@ background: linear-gradient(90deg, #6a26d8, #2cfff4);
 
 .footer p{
     color: wheat;
+    padding: 0.5em;
 }
+
+.footer a:last-child p:hover{
+    color: #0a00946b;
+}
+

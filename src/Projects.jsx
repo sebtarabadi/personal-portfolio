@@ -15,7 +15,7 @@ function Projects(){
         <div className='react-icon-container'>
 
                 <Canvas>
-                <ambientLight intensity={3.25}/>
+                <ambientLight intensity={5}/>
                 <Suspense fallback={null}>
                     <CSharpIcon/>
                     </Suspense>
@@ -33,15 +33,41 @@ function Projects(){
 
         <h2>Hockey Whiteboard</h2>
 
-        <p>A Project created by me in react</p>
+        <p>
+            A Project created by me in react
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests    
+            
+        </p>
 
         <h2>Trophies & Tombstones</h2>
 
-        <p>A Game created by me and another, inspired by a gamejam theme of 'Lose Health, Gain Wealth', merging branches </p>
+        <p>
+            A Game created by me and another, inspired by a gamejam theme of 'Lose Health, Gain Wealth', merging branches 
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests
+        </p>
 
         <h2>Portfolio Website</h2>
 
-        <p>Interactive website with 3d elements</p>
+        <p>Interactive website with 3d elements
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests
+        </p>
 
         <h2>ST Currency Transfer</h2>
 
@@ -57,11 +83,23 @@ function Projects(){
 
         <p>This project was a group effort, It was my first time working in a group project to create software for a client, My role in the group was the front-end engineer for the project.
             The project itself was a large success, achieving both a 1st class grade and a place at my univerisites annual computer science student showcase for excellent work
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests
         </p>
 
         <h2>Console Multi-Tool</h2>
 
-        <p>Achieving a 1st, this project consists of a bundle of mini-applications, namely a</p>
+        <p>
+            Achieving a 1st, this project consists of a bundle of mini-applications, namely a
+            testintesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
+            g test text testing texting tests
+        </p>
 
         </div>
 

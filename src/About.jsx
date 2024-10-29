@@ -17,7 +17,7 @@ function Test(){
             <div className='react-icon-container'>
 
                 <Canvas>
-                <ambientLight intensity={1.5}/>
+                <ambientLight intensity={2.25}/>
                      <directionalLight position={[10, 10, 5]}intensity={1}castShadow/>
                       <pointLight position={[-10, -10, 10]} intensity={1.5} />
                         <OrthographicCamera makeDefault zoom={100} position={[0, 0, 10]} />
