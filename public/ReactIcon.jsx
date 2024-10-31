@@ -24,7 +24,7 @@ export default function Model(props) {
 
   useFrame(() => {
     setSpinY((current) => {
-      const speed = 0.1  
+      const speed = 0.05  
       if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
@@ -40,7 +40,7 @@ export default function Model(props) {
           geometry={nodes['React-Logo_Material002_0'].geometry}
           material={materials['Material.002']}
           position={[0, 7.935, 18.102]}
-          rotation={[spinY/2, spinY+(0.5), -(spinY*6)]}  //1 2 3 || // 0 0 spinY // up+down / left+right / rotate
+          rotation={[6/2, 0.5+spinY*2, -(spinY*1)]}  //1 2 3 || // 0 0 spinY // up+down / left+right / rotate
           scale={[39.166, 39.166, 52.734]}
         />
       </group>

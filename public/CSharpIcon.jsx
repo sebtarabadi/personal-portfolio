@@ -22,7 +22,7 @@ export default function Model(props) {
 
   useFrame(() => {
     setRotation((current) => {
-      const speed = 0.1  
+      const speed = 0.05  
       if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
@@ -33,7 +33,7 @@ export default function Model(props) {
       <group scale={0.001}>
         <mesh geometry={nodes['C#_C#_0'].geometry}
          material={materials.material} 
-         rotation={[-1.85, 0.25, rotation/2]} //[-1.85, 0.25, rotation]
+         rotation={[-1.85, 0.25, (rotation)/2]} //[-1.85, 0.25, rotation]
          scale={100} />
       </group>
     </group>

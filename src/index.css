@@ -9,13 +9,28 @@
     background-color: transparent;
 }
 
+/*End of React Icon Container*/
+
+
+
 canvas {
     width: 50%;               
     height: auto;             
    
 }
 
-/*End of React Icon Container*/
+/* Start of Python Icon Contianer Styling */
+
+.python-icon-container{
+    float: right;
+    height: 50vh;  
+    width: 30vw; 
+    background-color: transparent;
+    margin-right: 8em;
+}
+
+/* End of Python Icon Container Styling*/
+
 
 * {
     margin: 0; 
@@ -24,10 +39,20 @@ canvas {
 
 /*git icon container styling*/
 
-.git-icon-container {
+/*
+    PREVIOUS GIT ICON STYLING:
+    
     float: right;
-    height: 50vh;  
+    height: 65vh;  
     width: 40vw; 
+    background-color: transparent;
+*/
+
+.git-icon-container {
+    height: 65vh;  
+    width: 40vw; 
+    margin-right: -15em;
+    float: right;
     background-color: transparent;
 }
 

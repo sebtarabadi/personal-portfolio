@@ -22,7 +22,7 @@ export default function Model(props) {
 
   useFrame(() => {
     setRotation((current) => {
-      const speed = 0.1  
+      const speed = 0.01  
       if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
@@ -32,7 +32,7 @@ export default function Model(props) {
   return (
     <group {...props} dispose={null} onClick={handleClick}>
       <group scale={0.0006}>
-        <mesh geometry={nodes.Python_Python_0.geometry} material={materials.Python} rotation={[-Math.PI / 2, 0-(rotation*1.5), 0]} scale={100} />
+        <mesh geometry={nodes.Python_Python_0.geometry} material={materials.Python} rotation={[-Math.PI / 2, 0+(rotation*1.5), 0]} scale={100} />
       </group>
     </group>
   )

@@ -4,6 +4,8 @@ import { Environment, OrbitControls, OrthographicCamera } from '@react-three/dre
 
 import CSharpIcon from '../public/CSharpIcon.jsx'
 
+import PythonIcon from '../public/PythonIcon.jsx'
+
 import './index.css'
 
 function Projects(){
@@ -68,6 +70,20 @@ function Projects(){
             testing test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting teststesting test text testing texting tests
             g test text testing texting tests
         </p>
+
+        <div className='python-icon-container'>
+
+        <Canvas>
+                <ambientLight intensity={12.25}/>
+                     <directionalLight position={[10, 10, 5]}intensity={15}castShadow/>
+                      <pointLight position={[-Math.PI / 2, 0, 0]} intensity={15} />
+                        <OrthographicCamera makeDefault zoom={100} position={[0, 0, 10]} />
+                        <Suspense fallback={null}>
+                             <PythonIcon/>
+                        </Suspense>
+                </Canvas>   
+
+        </div>   
 
         <h2>ST Currency Transfer</h2>
 
