@@ -20,7 +20,7 @@ function Contact(){
                 <br/><br/>
 
                 <span>LinkedIn: </span><a href="https://www.linkedin.com/in/sebastian-tarabadi-973965336/" target="_blank" rel="noopener noreferrer">
-                Sebastian Tarabadi
+                linkedin.com/in/sebastian-tarabadi
                 </a>
 
                 <br/><br/>
