@@ -32,21 +32,23 @@ function Test(){
 
             <div className='section-child'>
             
-                <h2>About Me</h2>
-
-                <p>
-                 I am currently a 2nd Year Undergradute Computer Science student;
-                 <br/>
-                 Passionate about developing software of all kinds, I am always embracing new technologies and tools in which I then leverage to the best
-                 of my abilites and constantly seek improvement in. I have a strong commitment to building software that solves real-world problems and find fulfillemnt in working towards solutions that 
-                 fulfill criteria set out by clients
-                 <br/><br/>
- 
-                 I particularly enjoy working in Collaborative environments where I can learn from diverse team members who all have their own sets of skills and this team-driven approach constantly inspires and motivates me to not 
-                 only perform to the best of my ability but to constnatly redefine what my best actually is and seek continuous improvement
+                <h2>About Me</h2> 
+                
+                <p> 
+                 I am currently a second-year undergraduate Computer Science student. 
                  <br/><br/>
                  
-                 In my free time I enjoy playing ice hockey both recreationally and in a league setting and I am also entwined in the world of drug free bodybuilding
+                 Passionate about developing software of all kinds, I continuously embrace new technologies and tools that I leverage
+                 to the best of my abilities whilst constantly seeking improvement. I am strongly committed to building software that solves real-world problems and find fulfillment in working toward solutions that achieve and
+                 exceed the criteria set by clients. 
+                 <br/><br/> 
+                 
+                 I particularly enjoy working in collaborative environments where I can learn from diverse team members, each of whom bring their own unique skills, This team-driven
+                 approach inspires and motivates me not only to perform at my best but also to continually redefine what my 'best' truly is. 
+                 <br/><br/> 
+                 
+                 In my free time, I enjoy playing ice hockey both recreationally and in a 
+                 league setting and I am also dedicated to competitive drug-free bodybuilding, which helps me stay disciplined and motivated.
                 </p>
 
                 <h2>Familiar Technologies</h2>

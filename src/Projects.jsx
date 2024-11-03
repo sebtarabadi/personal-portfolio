@@ -36,26 +36,28 @@ function Projects(){
                 <h2>Hockey Whiteboard</h2>
 
                 <p>
-                 A project created using React; Hockey Whiteboard is an interactive whiteboard web application that allows Ice hockey coaches, players, and anybody else to a way to easily
-                 create and download ice hockey drills. In the real-world Ice hockey drills are drawn with a common drawing convention, i.e. a squiggly line represents
-                 skating with the puck, a dotted line shows a pass, and so on and so forth, this is replicated in hockey whiteboard which hosts all necessary brush ‘styles’ that would be 
+                 A project built primarily using React; Hockey Whiteboard is an interactive whiteboard web application that allows Ice hockey coaches, players, and anybody else a way to easily
+                 create and download ice hockey drills. In the real-world, ice hockey drills are drawn with a common drawing convention, i.e. a squiggly line represents
+                 skating with the puck, a dotted line shows a pass, and so on and so forth, this is replicated in hockey whiteboard which hosts all necessary drawing styles that would be 
                  needed and also boasts a multitude of other features such as easy to use counters, such as cones, tyres, player counters, and more, along with the ability to change which rink 
                  you want to draw your drill on, such as a full rink, half rink, or end-zone just to name a few. When finished creating your drill, the user can then name and download their
                  drawn drill in a PNG format.  
                  <br/><br/>
-                 For a more extensive project description and list of site functionality, along with an application preview and installation guide, please view the github repo here: www.github.com/sebt
+                 For a more extensive project description and list of site functionality, along with an application preview and installation guide, please view the GitHub repository here: www.github.com/sebt
                 </p>
 
                 <h2>Trophies & Tombstones</h2>
 
-                <p>
-                 A game made in Godot by myself and another for a game jam. Trophies and Tombstones is a game in which you wager your health in exchange for wealth and then gamble said wealth
-                 on classic casino games namely Roulette and Slots, If you lose all your wealth and have no more health to exchange, you die and gain a tombstone, you will then be reborn with 
-                 100 health again and have the chance to stake your way to the top. The aim of the game is to win enough money to purchase the available trophies from the shop whilst keeping
-                 the number of tombstones you amass to a minimal. The game jam’s theme was ‘Lose Health, Gain Wealth’
+                <p> 
+                 Trophies & Tombstones is a game developed in Godot by myself and a collaborator for a game jam. In this game, you wager your health in exchange for money and then gamble that 
+                 money on classic casino games, namely Roulette and Slots. If you lose all your money and have no health left to exchange, you die and gain a tombstone. However, you will be reborn with 100 health and once again have the
+                 chance to stake your way to the top. The aim of the game is to win enough money to purchase the trophies from the shop while keeping the number of tombstones you amass to a minimum.
                  <br/><br/>
-                 Feel free to download and play the game yourself by clicking the download here: Download
+                 The theme of the game jam was “Lose Health, Gain Wealth.”
+                 <br/><br/> 
+                 Feel free to download and play the game by clicking the link here: [Download](#). 
                 </p>
+
 
                 <h2>Portfolio Website</h2>
 
@@ -82,13 +84,13 @@ function Projects(){
                 <h2>ST Currency Transfer</h2>
 
                 <p>
-                 This Currency Transfer CRUD App simulates the core functionalities of popular money transfer services 
-                 like Western Union and Monzo. Utilizing a local SQLite database; the app enables users to open accounts, transfer funds across different accounts and currencies with their respective exchange rates, an
-                 d perform other essential banking operations. Security features include automated checks to detect suspicious activity, with algorithms that temporarily freeze accounts 
-                 if certain risk conditions are met. Suspended accounts are restricted from site functions until an admin manually reviews and reactivates them, ensuring robust oversight.
+                 This Currency Transfer CRUD App simulates the core functionalities of popular money transfer services such as Western Union and Monzo. Utilizing a local SQLite database; the app enables users to open accounts, 
+                 transfer funds across different accounts and different currencies, and perform other essential banking operations. Security features include automated checks to detect suspicious activity, 
+                 with algorithms that check and then temporarily freeze accounts if certain risk conditions are met. 
+                 Suspended accounts are restricted from site functions until an admin manually reviews and reactivates them, ensuring robust oversight.
                  A support ticket system is also present that allows all users to submit tickets that are to be reviewed and subsequently resolved by an admin.
 
-                 This project involved backend database design, implementation, and management, CRUD operations, server-side scripting, and implementing security protocols.
+                 This project involved backend database design, implementation, and management, CRUD operations, server-side scripting with php, implementing automated security protocols, and tieing everything together with a neat front-end
                 </p>
 
                 <h2>EER Calculator</h2>
