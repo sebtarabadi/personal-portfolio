@@ -35,7 +35,7 @@ function Projects(){
 
                 <h2>Hockey Whiteboard</h2>
 
-                <p><b>Using: React, Javascript, HTML, CSS, Git</b></p>
+                <p><b>Using: React, JavaScript, HTML, CSS, Git</b></p>
                 <p>
                  A project built primarily using React; Hockey Whiteboard is an interactive whiteboard web application that allows Ice hockey coaches, players, and anybody else a way to easily
                  create and download ice hockey drills. In the real-world, ice hockey drills are drawn with a standardized drawing convention, i.e. a squiggly line represents
@@ -64,7 +64,7 @@ function Projects(){
 
                 <h2>Portfolio Website</h2> 
                 
-                <p><b>Using: React, React-Three-Fiber, Html, CSS, Git</b></p>
+                <p><b>Using: React, React-Three-Fiber, JavaScript, HTML, CSS, Git</b></p>
                 <p>
                  This interactive portfolio website was created using React and React Three Fiber. It features 3D elements that users can interact with to trigger real-time animations and state changes. The website serves as a
                   hub containing relevant contact information, a downloadable copy of my CV, and a showcase of my projects and skills.

@@ -86,7 +86,7 @@ function Test(){
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>PHP</p>
-                <p>Javascript</p>
+                <p>JavaScript</p>
                 <p>Python</p>
                 <p>SQL (SQLite)</p>
                 <p>GDScript</p>
