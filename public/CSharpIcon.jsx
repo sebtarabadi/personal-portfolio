@@ -20,6 +20,15 @@ export default function Model(props) {
     setTargetRotation((prev) => prev + (Math.PI*2) )  
   }
 
+  const screenHeight = window.innerHeight;
+  const screenWidth = window.innerWidth;
+
+  let userScale = screenHeight * screenWidth;
+
+  userScale = Math.sqrt(userScale)
+
+  userScale = userScale/20
+
   useFrame(() => {
     setRotation((current) => {
       const speed = 0.25  
@@ -34,7 +43,7 @@ export default function Model(props) {
         <mesh geometry={nodes['C#_C#_0'].geometry}
          material={materials.material} 
          rotation={[-1.85, 0.25, (rotation)/2]} //[-1.85, 0.25, rotation]
-         scale={50} />
+         scale={userScale} />
       </group>
     </group>
   )
