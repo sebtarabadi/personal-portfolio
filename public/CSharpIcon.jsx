@@ -27,7 +27,7 @@ export default function Model(props) {
 
   userScale = Math.sqrt(userScale)
 
-  userScale = userScale/20
+  userScale = userScale/14
 
   useFrame(() => {
     setRotation((current) => {
