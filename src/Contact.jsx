@@ -13,11 +13,22 @@ function Contact(){
  
                 <h3>You can find me at:</h3>
 
-                <p>Github</p>
+                <span>GitHub: </span><a href="https://github.com/sebtarabadi" target="_blank" rel="noopener noreferrer">
+                github.com/sebtarabadi
+                </a>
 
-                <p>LinkedIn</p>
+                <br/><br/>
 
-                <p>Email</p>
+                <span>LinkedIn: </span><a href="https://www.linkedin.com/in/sebastian-tarabadi-973965336/" target="_blank" rel="noopener noreferrer">
+                Sebastian Tarabadi
+                </a>
+
+                <br/><br/>
+
+                <span>Email: </span><a href="mailto:starabadi172@gmail.com">
+                starabadi172@gmail.com
+                </a>
+
 
             </div>
 
