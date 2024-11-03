@@ -34,7 +34,7 @@ export default function Model(props) {
         <mesh geometry={nodes['C#_C#_0'].geometry}
          material={materials.material} 
          rotation={[-1.85, 0.25, (rotation)/2]} //[-1.85, 0.25, rotation]
-         scale={100} />
+         scale={50} />
       </group>
     </group>
   )

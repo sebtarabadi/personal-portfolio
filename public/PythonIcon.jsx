@@ -22,7 +22,7 @@ export default function Model(props) {
 
   useFrame(() => {
     setRotation((current) => {
-      const speed = 0.01  
+      const speed = 0.05  
       if (Math.abs(targetRotation - current) < 0.01) return targetRotation 
       return current + (targetRotation - current) * speed  
     })
