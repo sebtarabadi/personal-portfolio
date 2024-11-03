@@ -16,7 +16,6 @@ function Header(){
 
             <p>Undergraduate Computer Science student with an interest in all matters of Software Development</p>
 
-
         </div>
     )
 }

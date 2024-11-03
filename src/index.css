@@ -1,17 +1,9 @@
 /*Global Styling*/
 
-/*React Icon Container*/
-
-.react-icon-container{
-    float: right;
-    height: 50vh;  
-    width: 30vw; 
-    background-color: transparent;
+* {
+    margin: 0; 
+    padding: 0;
 }
-
-/*End of React Icon Container*/
-
-
 
 canvas {
     width: 50%;               
@@ -19,35 +11,17 @@ canvas {
    
 }
 
-/* Start of Python Icon Contianer Styling */
+/* Styling for 3D Icons */
 
-.python-icon-container{
+/* React Icon Styling */
+.react-icon-container{
     float: right;
     height: 50vh;  
     width: 30vw; 
     background-color: transparent;
-    margin-right: 8em;
 }
 
-/* End of Python Icon Container Styling*/
-
-
-* {
-    margin: 0; 
-    padding: 0;
-}
-
-/*git icon container styling*/
-
-/*
-    PREVIOUS GIT ICON STYLING:
-    
-    float: right;
-    height: 65vh;  
-    width: 40vw; 
-    background-color: transparent;
-*/
-
+/* Git Icon Styling */
 .git-icon-container {
     height: 65vh;  
     width: 40vw; 
@@ -56,10 +30,26 @@ canvas {
     background-color: transparent;
 }
 
-/**/
+/* CSharp Icon Styling */
+.csharp-icon-container{
+    float: right;
+    height: 50vh;  
+    width: 30vw; 
+    background-color: transparent;
+    margin-right: 8em;
+}
 
-/*Header Styling*/
+/* Python Icon Styling */
+.python-icon-container{
+    float: right;
+    height: 50vh;  
+    width: 30vw; 
+    background-color: transparent;
+    margin-right: 8em;
+}
 
+
+/* Header Styling */
 .header{
     background: linear-gradient(90deg, #6a26d8, #2cfff4);
     color: white;
@@ -98,71 +88,37 @@ canvas {
     gap: 20px
 }
 
-
-
-/*End of Header Styling*/
-
-/*Start of Xyz styling*/
-
-/*
-background: linear-gradient(90deg, #6a26d8, #2cfff4);
-
-/*ABOUT ME STYLING START*/
-
-.about-me-parent{
+/* Section Styling */
+.section-parent{
     background-color: rgb(241, 241, 241);
     padding: 40px;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-me-child{
+.section-child{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-me-parent h1{
+.section-parent h1{
     font-size: 4em;
     line-height: 1;
 }
 
-.about-me-parent h2{
+.section-parent h2{
     font-size: 2em;
     line-height: 2;
 }
 
-.about-me-parent h3{
+.section-parent h3{
     font-size: 1.5em;
     line-height: 1.5;
 }
 
-/*end of about me stlying*/
-
-/*STYLING FOR PROJECTS SECTION*/
-
-.projects{
-    background-color: rgb(255, 126, 126);
-    padding: 40px;
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 
-
-
-/*Styling for Contact Me*/
-
-.contact{
-
-}
-
-.contact h1{
-    font-size: 1.5em;
-    color: #000000;
-}
-
-/*footer styling*/
-
+/* Footer Styling */
 .footer{
     background: linear-gradient(90deg, #6a26d8, #2cfff4);
     color: white;
