@@ -30,6 +30,14 @@ export default function Model(props) {
     })
   })
 
+  const screenHeight = window.innerHeight;
+  const screenWidth = window.innerWidth;
+
+  let userScale = screenHeight * screenWidth;
+
+  userScale = Math.sqrt(userScale)
+
+  userScale = userScale/14
 
   //set size of scale to 0.0085 rather than 0.001, as the latter seemed a bit too big
 
@@ -41,7 +49,7 @@ export default function Model(props) {
           material={materials['Material.002']}
           position={[0, 7.935, 18.102]}
           rotation={[6/2, 0.5+spinY*2, -(spinY*1)]}  //1 2 3 || // 0 0 spinY // up+down / left+right / rotate
-          scale={[39.166, 39.166, 52.734]}
+          scale={[userScale/2, userScale/2, userScale/2]}
         />
       </group>
     </group>

@@ -20,6 +20,15 @@ export default function Model(props) {
     setTargetRotation((prev) => prev + (Math.PI*2) )  
   }
 
+  const screenHeight = window.innerHeight;
+  const screenWidth = window.innerWidth;
+
+  let userScale = screenHeight * screenWidth;
+
+  userScale = Math.sqrt(userScale)
+
+  userScale = userScale/14
+
   useFrame(() => {
     setSpinY((current) => {
       const speed = 0.1  
@@ -31,7 +40,7 @@ export default function Model(props) {
   return (
     <group {...props} dispose={null} onClick={handleClick}>
       <group rotation={[Math.PI / 180, -12, -(spinY/4)]}>  {/*(-Math.PI / 2), 0, 0*, check and test for value where math/ x, where x =180 ie first value of the 3, xyz*/}
-        <mesh geometry={nodes.Object_4.geometry} material={materials['SVGMat.006']} rotation={[Math.PI / 2, 0, 0]} scale={50} />
+        <mesh geometry={nodes.Object_4.geometry} material={materials['SVGMat.006']} rotation={[Math.PI / 2, 0, 0]} scale={userScale/2} />
       </group>
     </group>
   )

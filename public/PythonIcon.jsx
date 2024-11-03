@@ -28,11 +28,19 @@ export default function Model(props) {
     })
   })
 
+  const screenHeight = window.innerHeight;
+  const screenWidth = window.innerWidth;
+
+  let userScale = screenHeight * screenWidth;
+
+  userScale = Math.sqrt(userScale)
+
+  userScale = userScale/14
 
   return (
     <group {...props} dispose={null} onClick={handleClick}>
       <group scale={0.0006}>
-        <mesh geometry={nodes.Python_Python_0.geometry} material={materials.Python} rotation={[-Math.PI / 2, 0+(rotation*1.5), 0]} scale={100} />
+        <mesh geometry={nodes.Python_Python_0.geometry} material={materials.Python} rotation={[-Math.PI / 2, 0+(rotation*1.5), 0]} scale={userScale} />
       </group>
     </group>
   )
