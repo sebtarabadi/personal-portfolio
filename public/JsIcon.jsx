@@ -7,6 +7,10 @@ Source: https://sketchfab.com/3d-models/javascript-1-e6a5af39d2b3495fb4fb1f8f94d
 Title: Javascript (1)
 */
 
+//JAVASCRIPT ICON DID NOT GET USED IN FINAL VERSION
+//JAVASCRIPT ICON DID NOT GET USED IN FINAL VERSION
+//JAVASCRIPT ICON DID NOT GET USED IN FINAL VERSION
+
 import React, { useState } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'

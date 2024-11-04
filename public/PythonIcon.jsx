@@ -28,6 +28,7 @@ export default function Model(props) {
     })
   })
 
+  // Calculate size to scale the icon down as the 3D icons were a single size thus causing issues on screens of different sizes
   const screenHeight = window.innerHeight;
   const screenWidth = window.innerWidth;
 
