@@ -37,7 +37,7 @@ function Projects(){
 
                 <p><b>Using: React, JavaScript, HTML, CSS, Git</b></p>
                 <p>
-                 A project built primarily using React; Hockey Whiteboard is an interactive whiteboard web application that allows Ice hockey coaches, players, and anybody else a way to easily
+                 A project built primarily using React; Hockey Whiteboard is an interactive whiteboard web application that allows ice hockey coaches, players, and anybody else a way to easily
                  create and download ice hockey drills. In the real-world, ice hockey drills are drawn with a standardized drawing convention, i.e. a squiggly line represents
                  skating with the puck, a dotted line shows a pass, and so on and so forth, this is replicated in hockey whiteboard which hosts all necessary drawing styles that would be 
                  needed and also boasts a multitude of other features such as easy to use counters, such as cones, tyres, player counters, and more, along with the ability to change which rink 
@@ -70,6 +70,8 @@ function Projects(){
                   hub containing relevant contact information, a downloadable copy of my CV, and a showcase of my projects and skills.
                   <br/><br/> 
                   Click around and explore the site to experience the unique interactions that each icon has to offer.
+                  <br/><br/>
+                  GitHub Repo: <a href="https://github.com/sebtarabadi/personal-portfolio" target="_blank" rel="noopener noreferrer">https://github.com/sebtarabadi/personal-portfolio</a>
                 </p>
 
                 </div>
