@@ -31,34 +31,11 @@ function Contact(){
 
                 <br/><br/>
 
-                <span>A copy of my CV can be found </span><a href="./dist/Seb-Tarabadi-CV.pdf" target="_blank">
+                <span>A copy of my CV can be found </span><a href="./public/Seb-Tarabadi-CV.pdf" target="_blank">
                 here
                 </a>
 
-                <br/><br/>
-                <p>testtestetsst</p>
 
-                <br/><br/>
-
-                <span>A copy of my CV can be found </span><a href="./dist/seb-tarabadi-cv.pdf" target="_blank">
-                here
-                </a>
-
-                <p>testtestetsst</p>
-
-                <br/><br/>
-
-                <span>A copy of my CV can be found </span><a href="/dist/seb-tarabadi-cv.pdf" target="_blank">
-                here
-                </a>
-
-                <p>testtestetsst</p>
-
-                <br/><br/>
-
-                <span>A copy of my CV can be found </span><a href="portfolio-project/dist/Seb-Tarabadi-CV.pdf" target="_blank">
-                here
-                </a>
 
             </div>
 
