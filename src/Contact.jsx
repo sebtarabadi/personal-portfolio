@@ -44,6 +44,22 @@ function Contact(){
                 here
                 </a>
 
+                <p>testtestetsst</p>
+
+                <br/><br/>
+
+                <span>A copy of my CV can be found </span><a href="/dist/seb-tarabadi-cv.pdf" target="_blank">
+                here
+                </a>
+
+                <p>testtestetsst</p>
+
+                <br/><br/>
+
+                <span>A copy of my CV can be found </span><a href="portfolio-project/dist/Seb-Tarabadi-CV.pdf" target="_blank">
+                here
+                </a>
+
             </div>
 
         </div>
