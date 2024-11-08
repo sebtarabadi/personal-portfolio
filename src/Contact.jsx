@@ -38,6 +38,12 @@ function Contact(){
                 <br/><br/>
                 <p>testtestetsst</p>
 
+                <br/><br/>
+
+                <span>A copy of my CV can be found </span><a href="./dist/seb-tarabadi-cv.pdf" target="_blank">
+                here
+                </a>
+
             </div>
 
         </div>
