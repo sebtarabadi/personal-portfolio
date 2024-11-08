@@ -29,6 +29,11 @@ function Contact(){
                 starabadi172@gmail.com
                 </a>
 
+                <br/><br/>
+
+                <span>A copy of my CV can be found </span><a href="./public/Seb-Tarabadi-CV.pdf" target="_blank">
+                here
+                </a>
 
             </div>
 

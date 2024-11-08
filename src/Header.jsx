@@ -9,7 +9,7 @@ function Header(){
                 <a href='#about'><h2>About</h2></a>
                 <a href='#projects'><h2>Projects & Experience</h2></a>
                 <a href='#contact'><h2>Contact</h2></a>
-                <h2>CV</h2>
+                <a href="./public/Seb-Tarabadi-CV.pdf" target="_blank"><h2>CV</h2></a>
             </div>
 
             <h1>Seb Tarabadi</h1>
