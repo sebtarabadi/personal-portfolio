@@ -44,8 +44,8 @@ function Projects(){
                  you want to draw your drill on, such as a full rink, half rink, or end-zone just to name a few. When finished creating your drill, the user can then name and download their
                  drawn drill in a PNG format.  
                  <br/><br/>
-                 For a more extensive project description and list of site functionality, along with an application preview and installation guide, please view the GitHub repository here: www.github.com/sebt
-                </p>
+                 For a more extensive project description and list of site functionality, along with an application preview and installation guide, please view the GitHub repository here: <a href="https://github.com/sebtarabadi/hockey-whiteboard" target="_blank" rel="noopener noreferrer">https://github.com/sebtarabadi/hockey-whiteboard
+                </a></p>
 
                 <h2>Trophies & Tombstones</h2>
 
