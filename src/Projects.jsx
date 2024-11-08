@@ -57,7 +57,7 @@ function Projects(){
                  <br/><br/>
                  The theme of the game jam was “Lose Health, Gain Wealth.”
                  <br/><br/> 
-                 Feel free to download and play the game by clicking the download link here: <a href="./public/trophiestombstones.zip" download> Download</a>
+                 Feel free to download and play the game by clicking the download link here: <a href="/trophiestombstones.zip" download> Download</a>
                  <p><i>To play simply unzip the folder and run 'trophiesandtombstones.exe'</i></p>
                 </p>
 
