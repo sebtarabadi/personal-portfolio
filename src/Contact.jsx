@@ -35,7 +35,7 @@ function Contact(){
 
                 <br/><br/>
 
-                <span>A copy of my CV can be found </span><a href="/Seb-Tarabadi-CV.pdf" target="_blank">
+                <span>My CV can be found </span><a href="/Seb-Tarabadi-CV.pdf" target="_blank">
                 here
                 </a>
 
