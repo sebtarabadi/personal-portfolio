@@ -1,6 +1,10 @@
 
 import './index.css'
 
+/*
+Updated CV to account for my AP modules grade
+*/
+
 function Contact(){
 
     return(
